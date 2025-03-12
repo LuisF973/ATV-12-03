@@ -1,0 +1,17 @@
+.main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: #111;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main section {
+    flex: 1;
+    margin: var(--margin-padrao);
+    padding: var(--padding-padrao);
+    background-color: var(--cor-secao);
+    border: var(--border-size) solid var(--cor-borda);
+    border-radius: var(--border-radius);
+}
